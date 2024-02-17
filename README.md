@@ -40,6 +40,12 @@ Type the following command in the project directory to install required modules
 pip3 install -r requirements.txt
 ```
 
+#### Set API Variable
+In the venv terminal type
+```
+export OPEN_WEATHER_API='apikey'
+```
+
 
 #### Run Server
 
