@@ -27,7 +27,7 @@ Our Dockerized Django app comes equipped with features that highlight the benefi
 This project aims to provide a hands-on experience in applying cloud computing concepts, allowing students to gain practical insights into the tools and practices essential for modern software development and deployment.
 
 #### Create virtual environment (venv)
-Navigate to the nc-early-math-placement directory and create a virtual environment and activate it with the following commands
+Navigate to the docker-gcp directory and create a virtual environment and activate it with the following commands
 ```
 cd django-docker-gcp/
 python3 -m venv venv
