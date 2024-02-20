@@ -26,6 +26,7 @@ Our Dockerized Django app comes equipped with features that highlight the benefi
 
 This project aims to provide a hands-on experience in applying cloud computing concepts, allowing students to gain practical insights into the tools and practices essential for modern software development and deployment.
 
+## Running Locally
 #### Create virtual environment (venv)
 Navigate to the docker-gcp directory and create a virtual environment and activate it with the following commands
 ```
@@ -56,3 +57,16 @@ python3 manage.py runserver
 ```
 
 Now navigate to http://127.0.0.1:8080/ in your browser.
+
+
+## Running in Docker
+
+#### Build image 
+```
+docker build -t my-python-app .  
+```
+
+#### Run Image
+```
+sudo docker run -p 8000:8000 -e OPEN_WEATHER_API='api here' my-python-app
+
